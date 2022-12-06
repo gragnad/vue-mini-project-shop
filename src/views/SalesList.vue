@@ -73,7 +73,7 @@
                         console.log(product_id)
                         await this.$api("/api/productDelete", {param:[product_id]});
                         this.getProductList();
-                        this.#swal.fire('삭제되었습니다!','','success')
+                        this.$swal.fire('삭제되었습니다!','','success')
                     }
                 });
             }

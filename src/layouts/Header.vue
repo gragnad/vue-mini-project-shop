@@ -38,7 +38,7 @@
 </template>
 <script>
     export default {
-        mounted() {
+        created() {
             
         },
         name: 'header',
